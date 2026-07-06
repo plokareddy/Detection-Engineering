@@ -3,7 +3,7 @@
 The objective of this detection is to identify when a user account is added to a privileged local group in Windows. I analyzed Windows Security Event ID 4732 to understand how administrator group membership changes are recorded and how they can be investigated from a SOC analyst's perspective.
 
 ## Attack Simulation 
-To simulate this activity, the local user account named 'attacker' was added to the local 'Administrators' group using Windows Local Users and Groups. 
+To simulate this activity, the local user account named `attacker` was added to the local `Administrators` group using Windows Local Users and Groups. 
 This generated Windows Security Event ID 4732, which was analyzed later.
 
 ## Log Source 
