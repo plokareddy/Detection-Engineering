@@ -3,7 +3,7 @@
 The objective of this detection is to identify the creation of new local user accounts in Windows environment.I analyzed Windows Security Event ID 4720 to understand how account creation events are recorded and how they can be investigated from a SOC analyst's perspective.
 
 ## Attack Simulation
-To simulate the activity, a new local user account named 'attacker' has been created using Windows Local Users and Groups.This generated Windows Security Event ID 4720.
+To simulate the activity, a new local user account named `attacker` has been created using Windows Local Users and Groups.This generated Windows Security Event ID 4720.
 
 ## Log Source 
 
@@ -12,7 +12,7 @@ To simulate the activity, a new local user account named 'attacker' has been cre
 - Event description : A user acccount was created
 
 ## Event Analysis 
-Event Id 4720 contains useful information for investigating new created user accounts and that includes:
+Event Id 4720 contains useful information for investigating newly created user accounts and that includes:
 - Security ID
 - Account name
 - Account domain
