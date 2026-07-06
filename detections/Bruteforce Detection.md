@@ -3,7 +3,7 @@
 The objective of this detection is to identify failed login attempts in Windows Security Event Logs that may indicate a brute force attack against a Windows user account. I analyzed Windows Security Event ID 4625 to understand how failed login attempts are recorded and how they can be investigated from a SOC analyst's perspective.
 
 ## Attack Simulation 
-In order to simulate a BruteForce attack scenario,a local user account 'attacker' has been created.Five incorrect password attempts were made before entering the correct password.This led to in generating failed logon events that were recorded in the Windows Security Event logs.
+In order to simulate a BruteForce attack scenario,a local user account `attacker` has been created.Five incorrect password attempts were made before entering the correct password.This led in generating failed logon events that were recorded in the Windows Security Event logs.
 
 ## Log Source 
 - Log name : Windows Security Event log
@@ -20,7 +20,7 @@ The Event ID 4625 which generated contains useful information for investigating 
 - Time of the failed attempts
 
 ## Investigation Steps 
-When multiple failed logon attemps are detected,below are the investigation phases:
+When multiple failed logon attempts are detected,below are the investigation phases:
 
 1. The first step is identifying the user account that experienced the failed logon attempts.
 2. Verify the logon type and understand how the authentication attempt was made.
