@@ -47,5 +47,3 @@ False positives could exist because these commands are commonly used by administ
 - Security analysts conducting investigations.
 - Automated administrative scripts.
 - Legitimate users checking system information.
-
-## Evidence 
