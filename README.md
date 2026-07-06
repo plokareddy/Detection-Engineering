@@ -1,4 +1,4 @@
-# 🛡️ Detection-Engineering-Lab
+# 🛡️ Detection Engineering 
 ## 1. Overview 
 Detection engineering is a defensive cybersecurity practice that focuses on identifying suspicious and malicious activity using logs and system telemetry. In this project, I simulated common attacker techniques in a Windows environment and analyzed the resulting Windows Security Event Logs and Sysmon events. Each scenario is mapped to the MITRE ATT&CK framework, with corresponding detection logic, Sigma rules, and investigation procedures to demonstrate how SOC analysts can detect, investigate, and respond to potential threats.
 
