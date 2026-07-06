@@ -41,4 +41,3 @@ False positives could exist because administrator group modifications may occur 
 - Temporary administrator access for troubleshooting.
 - Authorized system configuration changes.
 
-## Evidence 
